@@ -40,6 +40,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --btn-border: var(--bs-gray-600);
+  --btn-border-highlight: var(--bs-gray-400);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -106,4 +109,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+p {
+  font-family: var(--font-mono);
 }
