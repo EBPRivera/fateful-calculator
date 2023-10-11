@@ -5,9 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fateful Calculation",
-  description:
-    "A simple tool for calculating the mean value of a check following the rules of the Fateful Architecture System",
+  title: "Fateful Utility Belt",
+  description: "A repository of tools used for Fateful Architecture",
 };
 
 interface RootLayoutProps {
