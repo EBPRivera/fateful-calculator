@@ -1,0 +1,11 @@
+.c-button {
+  border: 1px solid var(--btn-border);
+  border-radius: 0.5rem;
+  background-color: transparent !important;
+  padding: 0.5rem;
+  color: inherit !important;
+
+  &:hover {
+    border-color: var(--btn-border-highlight);
+  }
+}
