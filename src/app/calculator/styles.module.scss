@@ -1,22 +1,25 @@
 .calculator {
   position: fixed;
-  top: 20%;
   left: 50%;
   transform: translate(-50%, 50%);
 
-  > div {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.dropdowns {
-  display: flex;
-  flex-flow: row nowrap;
-
   select {
     margin: 0 0.5rem;
+  }
+
+  .dropdowns {
+    :global .row:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    :global .border-bottom {
+      padding-bottom: 1rem;
+    }
+
+    .character-stats {
+      > div:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
   }
 }
